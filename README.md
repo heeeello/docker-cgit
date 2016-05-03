@@ -1,3 +1,10 @@
+
+Some change to Docker Teamspeak
+====
+    docker pull jimme/docker-cgit
+    docker run -d -p 80:80 -v my/cgit/conf/dir:/etc/cgit  -v my/git/repositories:/git jimme/docker-cgit
+
+
 Docker Teamspeak
 =================
 
